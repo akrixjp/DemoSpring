@@ -30,6 +30,7 @@ public class PruebaRestController {
 	}
 	
 	//primera subida
+	
 	@GetMapping("/pruebas")
 	public List<Prueba> getListado() {
 		List<Prueba> p1 = new ArrayList<>();
